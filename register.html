@@ -9,10 +9,11 @@
 <h1 align="center">register</h1>
 <div id="reg_form">
 <form action="register.php" method='post'>
+    @csrf
    @method('put')
   <input type="hidden" name="id" value="123456">
   <table>
-    <tr><td>nameee: </td> <td><input type="text" name="fio" value=""></td></tr>
+    <tr><td>nameeeee: </td> <td><input type="text" name="fio" value=""></td></tr>
     <tr><td>password</td> <td><input type="password" name="pass" value=""></td></tr>
      <tr><td>gender: </td> <td><input type="radio" name="sex" value="1" checked> M
      <input type="radio" name="sex" value="2"> W</td></tr>
